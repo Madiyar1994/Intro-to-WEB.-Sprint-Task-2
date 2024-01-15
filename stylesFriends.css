@@ -1,0 +1,202 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    background-color: rgb(242, 238, 238);
+    
+}
+
+.navBar{
+    background-color:rgb(19, 106, 150);
+    color: white;
+    display: flex;
+}
+
+.navBar h1{
+    margin: 5px 11%;
+}
+
+.input{
+    margin-left: -3%;
+    padding: 8px 0;
+}
+
+input{
+    width: 200px;
+    font-size: 21px;
+    border-radius: 20px;
+    border: 1px;
+    padding: 5px 20px;
+    background-color: rgba(41, 41, 118, 0.63);
+}
+
+.mainPage{
+    width: 80%;
+    margin: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile{
+    width: 12%;
+    font-size: 22px;
+}
+
+.profile ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.profile li{
+    margin-top: 15px;
+}
+
+.centerProfile{
+    width: 60%;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.lhbackground{
+    background-color: rgb(249, 247, 247);
+    border-radius: 5px;
+}
+
+.listHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.listHeader button{
+    font-size: 18px;
+    background-color: rgb(19, 106, 150);
+    color: white;
+    padding: 5px 25px;
+    border: 1px;
+    border-radius: 3px;
+}
+
+.friendsCount{
+    display: flex;
+    font-size: 20px;
+}
+
+.friendsCount p:last-child{
+    margin-left: 30px;
+}
+
+.centerProfile > p{
+    font-size: 20px;
+    margin: 15px;
+}
+
+.rowList{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    font-size: 19px;
+}
+
+.rowList > p{
+    font-size: 35px;
+    color: rgb(19, 106, 150);
+}
+
+.photoName1{
+    display: flex;
+    
+}
+
+.photoName1 img{
+    width: 13%;
+    border-radius: 50%;
+}
+
+.photoText1{
+    margin-left: 25px;
+    flex-direction: row;
+    align-self: center;
+}
+
+.photoText1 p:first-child{
+    font-weight: bold;
+}
+
+.photoText1 p:nth-child(2){
+    color: gray;
+}
+
+.lastProfile{
+    width: 25%;
+}
+
+.firstBlock2{
+    width: 100%;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.list2{
+    padding: 12px 0;
+}
+
+.firstBlock2 p{
+    padding: 15px;
+    font-size: 18px;
+}
+
+.firstBlock2 p:first-child{
+    background-color:rgb(237, 228, 249);
+    font-weight: bold;
+}
+
+.firstBlock2 span{
+    font-size: 9px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.secondBlock2{
+    width: 100%;
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.friendSum{
+    padding: 20px 20px 0;
+    font-size: 20px;
+}
+
+.photoName2{
+    display: flex;
+    padding: 20px;
+}
+
+.photoName2 img{
+    width: 25%;
+    border-radius: 50%;
+}
+
+.photoText2{
+    margin-left: 25px;
+    flex-direction: row;
+    align-self: center;
+}
+
+.photoText2 p:first-child{
+    font-size: 20px;
+}
+
+.photoText2 p:nth-child(2){
+    font-size: 18px;
+    color: grey;
+}
